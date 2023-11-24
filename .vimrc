@@ -5,7 +5,6 @@ hi highlight claer
 set bg=dark
 syntax enable
 
-
 color iceberg
 
 set number
@@ -49,6 +48,24 @@ if !has('gui_running')
   set t_Co=256
 endif
 
+
+"let g:lightline = {
+"      \ 'colorscheme': 'wombat',
+"      \ }
+
 let g:lightline = {
-      \ 'colorscheme': 'wombat',
+      \'colorscheme': 'iceberg',
+      \ 'mode_map': {
+        \ 'n' : 'N',
+        \ 'i' : 'I',
+        \ 'R' : 'R',
+        \ 'v' : 'V',
+        \ 'V' : 'VL',
+        \ "\<C-v>": 'VB',
+        \ 'c' : 'C',
+        \ 's' : 'S',
+        \ 'S' : 'SL',
+        \ "\<C-s>": 'SB',
+        \ 't': 'T',
+        \ },
       \ }
