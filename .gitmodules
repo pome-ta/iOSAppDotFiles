@@ -1,3 +1,0 @@
-[submodule ".vim/pack/plugins/start"]
-	path = .vim/pack/plugins/start
-	url = https://github.com/cocopon/iceberg.vim
