@@ -1,0 +1,6 @@
+[submodule ".vim/pack/plugins/start/lightline.vim"]
+	path = .vim/pack/plugins/start/lightline.vim
+	url = https://github.com/itchyny/lightline.vim
+[submodule ".vim/pack/plugins/start/iceberg.vim"]
+	path = .vim/pack/plugins/start/iceberg.vim
+	url = https://github.com/cocopon/iceberg.vim
